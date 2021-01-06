@@ -115,3 +115,13 @@ h3 {
     font-size: 9pt;
     letter-spacing: 1px;
 }
+
+.bubbles {
+    background-color: grey;
+    border-radius: var(--xs);
+    padding: var(--xs);
+    font-family: courier new;
+    color: white;
+    font-size: 8pt;
+    line-height: 250%;
+}
