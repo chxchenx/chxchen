@@ -89,7 +89,7 @@ h3 {
     margin-bottom: var(--l);
 }
 
-.infobox img {
+.profpic {
     width: 100px;
     border-radius: 100px;
     margin-bottom: var(--s);
