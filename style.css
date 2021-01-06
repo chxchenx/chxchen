@@ -129,3 +129,13 @@ h3 {
 .bubbles a {
     color: white;
 }
+
+.portfoliocontent {
+    text-align: center;
+}
+
+.portfoliocontent img {
+    width: 268px;
+    padding: 16px;
+    border: 1px solid black;
+}
