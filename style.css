@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: var(--s);
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: Cormorant Garamond;
+    font-weight: bold;
+    font-size: 22pt;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+h2 {
+    font-family: Cormorant Garamond;
+    font-weight: bold;
+    font-size: 18pt;
+    padding-bottom: 0px;
+    margin-bottom: var(--s);
+    margin-top: var(--s);
+}
+
+h3 {
+    font-family: Poppins;
+    opacity: .5;
+    font-size: 8pt;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.u-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 350px;
+    margin: auto;
+}
+
+.subContainer {
+    flex-grow: 1;
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.subContainer a {
+    font-style: normal;
+    color: #000;
+    text-decoration: none;
+}
+
+.infobox {
+    border: 1px solid black;
+    width: 268px;
+    padding: var(--m);
+    margin: auto;
+    text-align: center;
+    margin-top: var(--m);
+    margin-bottom: var(--l);
+}
+
+.infobox img {
+    width: 100px;
+    border-radius: 100px;
+    margin-bottom: var(--s);
+}
+
+.contact {
+    background-color: grey;
+    border-radius: var(--xs);
+    padding: var(--xs);
+    font-family: courier new;
+    color: white;
+    font-size: 8pt;
+}
+
+.contact a {
+    color: white;
+}
+
+.blurb {
+    width: auto;
+    margin-top: var(--s);
+    text-align: justify;
+    font-size: 9pt;
+    letter-spacing: 1px;
+}
