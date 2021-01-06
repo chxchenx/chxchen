@@ -125,3 +125,7 @@ h3 {
     font-size: 8pt;
     line-height: 250%;
 }
+
+.bubbles a {
+    color: white;
+}
