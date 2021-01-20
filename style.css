@@ -7,6 +7,28 @@
     --l: 24px;
 }
 
+.NEWSITE {
+    margin: auto;
+    text-align: center;
+    font-size: 18pt;
+    color: #DD6E42;
+    margin-top: 30vh;
+}
+
+.NEWSITE a {
+    text-decoration: none;
+    color: #4F6D7A;
+    background-color: #E0C884;
+}
+
+.NEWSITE a:hover {
+    font-weight: bold;
+}
+
+.NEWNOTE {
+    font-size: 11pt;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: var(--s);
